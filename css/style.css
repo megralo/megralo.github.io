@@ -52,7 +52,7 @@ img {
   cursor: pointer;
 }
 
-i:active {
+.circle:active {
   color: var(--decoration);
   transition: .1s;
 }
