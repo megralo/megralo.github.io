@@ -16,22 +16,23 @@ body {
   font-family: 'Jost', sans-serif;
   font-display: swap;
   font-size: 1rem;
+
   background-color: var(--background);
   color: var(--text);
 }
 
 .container {
-  max-width: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  max-width: 400px;
 }
 
 img {
-  display: flex;
-  justify-content: center;
   width: 7rem;
+
   border-radius: 50%;
   border: .2rem solid var(--decoration);
 }
@@ -40,16 +41,19 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+
   width: 3rem;
   height: 3rem;
+
   border-radius: 50%;
   border: .2rem solid var(--decoration);
 }
 
 .circle:hover {
+  cursor: pointer;
+  
   border-color: var(--text);
   transition: .3s;
-  cursor: pointer;
 }
 
 .circle:active {
