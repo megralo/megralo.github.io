@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  max-width: 600px;
+  margin: 100px auto;
+}
+
+.m-50 {
+  margin: 50px;
+}
+
+.mb-20 {
+  margin-bottom: 15px;
+}
+
+.mt-20 {
+  margin-bottom: 15px;
+}
